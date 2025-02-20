@@ -31,6 +31,8 @@ git checkout .
 cd
 ```
 
+After you download it, you can delete the Instructions folder from your interface (mainsail/fluidd)
+
 -------------------------------------------------
  With love, from Suzuki
 
