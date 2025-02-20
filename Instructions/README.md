@@ -15,6 +15,7 @@ Things to change/calibrate before printing:
 + Copy paste the controller board fan section for how many you have (in Main.cfg)
 + Check macros, I included my PRINT_START but still c: (in Macros.cfg)
 + Change printer.cfg for what end you use (mainsail or fluidd)
++ Change KAMP for what you need, I only enabled adaptive meshing since its usefull for proximity probes, TAP, PNP, NPN, etc. (in KAMP/KAMP_Settings.cfg)
 
 Download all the files in this repository to your main config location:
 
