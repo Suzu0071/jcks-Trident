@@ -11,3 +11,12 @@ Things to change/calibrate before printing:
     -Tune E steps for extruder (in Main.cfg)
     -Copy paste the controller board fan section for how many you have (in Main.cfg)
     -Check macros, I included my PRINT_START but still c: (in Macros.cfg)
+
+Download all the files in this repository to your main config location:
+
+    git clone https://github.com/Suzu0071/jcks-Trident temp
+    mv temp/.git ~/printer_data/config
+    rm -rf temp
+    cd ~/printer_data/config
+    git checkout .
+    cd
