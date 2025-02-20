@@ -4,6 +4,8 @@ https://github.com/SanaaHamel/nevermore-controller?tab=readme-ov-file#klipper-co
 
 https://github.com/bigtreetech/EBB/tree/master/EBB%20SB2209%20CAN%20(RP2040)
 
+I didn't configure nevermore because it uses a lot of personal settings, and it would be easier for you to do it yourself. The second link describes config.
+
 Things to change/calibrate before printing:
     
 + Get the serials of both boards (in Main.cfg)
@@ -20,9 +22,16 @@ Things to change/calibrate before printing:
 
 Download all the files in this repository to your main config location:
 
-    git clone https://github.com/Suzu0071/jcks-Trident temp
-    mv temp/.git ~/printer_data/config
-    rm -rf temp
-    cd ~/printer_data/config
-    git checkout .
-    cd
+```
+git clone https://github.com/Suzu0071/jcks-Trident temp
+mv temp/.git ~/printer_data/config
+rm -rf temp
+cd ~/printer_data/config
+git checkout .
+cd
+```
+
+-------------------------------------------------
+ With love, from Suzuki
+
+# 0w0
