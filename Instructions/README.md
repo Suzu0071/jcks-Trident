@@ -14,6 +14,7 @@ Things to change/calibrate before printing:
 + Tune E steps for extruder (in Main.cfg)
 + Copy paste the controller board fan section for how many you have (in Main.cfg)
 + Check macros, I included my PRINT_START but still c: (in Macros.cfg)
++ Change printer.cfg for what end you use (mainsail or fluidd)
 
 Download all the files in this repository to your main config location:
 
