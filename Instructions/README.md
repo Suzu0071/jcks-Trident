@@ -20,18 +20,7 @@ Things to change/calibrate before printing:
 + Change KAMP for what you need, I only enabled adaptive meshing since its usefull for proximity probes, TAP, PNP, NPN, etc. (in KAMP/KAMP_Settings.cfg)
 + KAMP also requires firmware retraction, set your desired settings (in FRetraction.cfg)
 
-Download all the files in this repository to your main config location:
-
-```
-git clone https://github.com/Suzu0071/jcks-Trident temp
-mv temp/.git ~/printer_data/config
-rm -rf temp
-cd ~/printer_data/config
-git checkout .
-cd
-```
-
-After you download it, you can delete the Instructions folder from your interface (mainsail/fluidd)
+Easiest way to install is download as zip, and paste all the files inside the prinnter_data/config folder
 
 -------------------------------------------------
  With love, from Suzuki
